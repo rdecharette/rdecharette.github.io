@@ -14,9 +14,16 @@
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
+        {% assign date_prev = nil %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            {% assign date_cur = item.date | date: '%Y.%m' %}
+            <th scope="row" style="width: 10%">
+            {%- if date_cur != date_prev -%}
+              {{ date_cur }}
+            {%- endif -%}
+            {%- assign date_prev = date_cur -%}
+            </th>
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}

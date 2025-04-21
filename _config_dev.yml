@@ -1,0 +1,27 @@
+# _config_dev.yml
+
+# Explicitly set the environment to development
+environment: development
+
+# Optional: turn off incremental image generation or custom filters
+# If you're using plugins or filters that process images, make sure they are excluded here.
+
+# You can also override other options to speed up local builds
+sass:
+  style: expanded
+
+# Disable jekyll-minifier plugin features (HTML, CSS, SVG, etc.)
+minifier:
+  enable: false
+
+# Disable jekyll-terser (JavaScript minification)
+terser:
+  compress:
+    defaults: false
+
+# Turn off minification (if you use any)
+minify: false
+minimize: false
+
+imagemagick:
+  enabled: false

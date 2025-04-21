@@ -1,0 +1,28 @@
+{% assign member =  include.member %}
+
+{%- assign full_name = member.firstname | append: " " | append: member.lastname -%}
+{%- assign axes = " " -%}
+{%- for axis in member.axes -%}
+  {%- assign axes = axes | append: " " | append: "axis-" | append: axis -%}
+{%- endfor -%}
+
+<div class="member text-center {{member.position}}">
+  {%- if member.url != nil and member.url != "" -%}
+    <a href="{{ member.url }}" target="_blank">
+  {%- endif -%}
+  <img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member.profilepic | prepend: '/assets/img/team/' | relative_url }}">
+  <span class="name">{{ full_name }}</span>
+  {%- if member.url != nil and member.url != "" -%}
+    </a>
+  {%- endif -%}
+  <br>
+  <span class="position">{{member.position}}</span><br>
+  {% if member.note != nil and member.note != "" %}
+    <span class="membernote">{{ member.note }}</span><br>
+  {% endif %}
+  {% if member.alumni == true %}
+    {% if member.alumni_now != nil and member.alumni_now != "" %}
+      <span class="nowat">(now {{member.alumni_now}})</span>
+    {% endif %}
+  {% endif %}
+</div>

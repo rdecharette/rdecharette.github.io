@@ -1,0 +1,14 @@
+{% assign members = site.data.team | where_exp:"item","item.alumni != true" | sort_natural: "lastname" %}
+{% assign postdocs = members | where: "position", "Postdoctoral" %}
+{% assign phds = members | where: "position", "PhD student" %}
+{% assign phdvisits = members | where: "position", "PhD visit" %}
+{% assign engineers = members | where: "position", "Engineer" %}
+{% assign interns = members | where: "position", "Intern" %}
+{% assign others = members | where_exp:"item","item.position != 'Postdoctoral' and item.position != 'PhD student' and item.position != 'PhD visit' and item.position != 'Engineer' and item.position != 'Intern'" %}
+{% assign ordered_members = postdocs | concat: phds | concat: phdvisits | concat: engineers | concat: interns %}
+
+<div class="team">
+{% for member in ordered_members %}
+    {% include team/member.html member=member %}
+{% endfor %}
+</div>

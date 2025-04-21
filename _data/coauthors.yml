@@ -1,34 +1,310 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+-
+    lastname: "Bazzani"
+    firstname: Loris
+    url: https://lorisbaz.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+-
+    lastname: "Guillaumin"
+    firstname: Matthieu
+    url: https://scholar.google.com/citations?user=jFdZ8s4AAAAJ
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+-
+    lastname: "Dai"
+    firstname: Angela
+    url: https://www.3dunderstanding.org/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+-
+    lastname: "Öztireli"
+    firstname: Cengiz
+    url: https://www.cl.cam.ac.uk/~aco41/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+-
+    lastname: "Xue"
+    firstname: Jing-Hao
+    url: http://www.homepages.ucl.ac.uk/~ucakjxu/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+-
+    lastname: "Xia"
+    firstname: Weihao
+    url: https://weihaox.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+-
+    lastname: "Lalonde"
+    firstname: Jean-François
+    url: http://vision.gel.ulaval.ca/~jflalonde/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+-
+    lastname: "Li"
+    firstname: Rong
+    url: https://rongli.tech/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+-
+    lastname: "Roldão"
+    firstname: Luis
+    url: https://scholar.google.fr/citations?user=bRgp2lUAAAAJ
+
+-
+    lastname: "Verroust-Blondet"
+    firstname: Anne
+    url: https://who.rocq.inria.fr/Anne.Verroust/
+
+-
+    lastname: "Jaritz"
+    firstname: Maximilian
+    url: https://scholar.google.co.uk/citations?user=yt2IsdAAAAAJ
+
+-
+    lastname: "Bertozzi"
+    firstname: Massimo
+    url: http://www.ce.unipr.it/people/bertozzi/
+
+-
+    lastname: "Cerri"
+    firstname: Pietro
+    url: https://scholar.google.it/citations?user=MEidJHwAAAAJ
+
+-
+    lastname: "Agarwal"
+    firstname: Pranav
+    url: https://pranaval.github.io/
+
+-
+    lastname: "Nashashibi"
+    firstname: Fawzi
+    url: https://team.inria.fr/rits/membres/fawzi-nashashibi/
+
+-
+    lastname: "Sautier"
+    firstname: Corentin
+    url: https://fr.linkedin.com/in/corentin-sautier-74415917b
+
+-
+    lastname: "Langlois"
+    firstname: Pierre-Alain
+    url: https://palanglois.github.io/
+
+-
+    lastname: "Siméoni"
+    firstname: Oriane
+    url: https://osimeoni.github.io/
+
+-
+    lastname: "Vo"
+    firstname: Huy V.
+    url: https://huyvvo.github.io/
+
+-
+    lastname: "Roburin"
+    firstname: Simon
+    url: http://imagine.enpc.fr/~roburins/
+
+-
+    lastname: "Gidaris"
+    firstname: Spyros
+    url: https://scholar.google.fr/citations?user=7atfg7EAAAAJ
+
+-
+    lastname: "Ponce"
+    firstname: Jean
+    url: https://www.di.ens.fr/~ponce/
+
+-
+    lastname: "Komodakis"
+    firstname: Nikos
+    url: https://www.csd.uoc.gr/~komod/
+
+-
+    lastname: "Cord"
+    firstname: Matthieu
+    url: https://webia.lip6.fr/~cord/
+
+-
+    lastname: "Saporta"
+    firstname: Antoine
+    url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ
+
+-
+    lastname: "Le Moing"
+    firstname: Guillaume
+    url: https://16lemoing.github.io/
+
+-
+    lastname: "Jain"
+    firstname: Himalaya
+    url: https://himalayajain.github.io/
+
+-
+    lastname: "Corbière"
+    firstname: Charles
+    url: https://chcorbi.github.io/
+
+-
+    lastname: "Thome"
+    firstname: Nicolas
+    url: http://cedric.cnam.fr/~thomen/
+
+-
+    lastname: "Bucher"
+    firstname: Maxime
+    url: https://scholar.google.fr/citations?user=NbYEOpMAAAAJ
+
+-
+    lastname: "Marlet"
+    firstname: Renaud
+    url: http://imagine.enpc.fr/~marletr/
+    position: Researcher
+    profilepic: renaud_marlet.jpg
+
+-
+    firstname: "Patrick"
+    lastname: "Pérez"
+    profilepic: "patrick_perez.jpg"
+    position: "Researcher"
+    url: https://ptrckprz.github.io/
+    alumni: true
+    alumni_date: 2023-11-01
+    alumni_now: "CEO of <a href='https://www.kyutai.org' target='_blank'>Kyutai</a>"
+
+-
+    lastname: "Lopes"
+    firstname: Ivan
+    url: https://wonjunior.github.io/
+    profilepic: ivan_lopes.jpeg
+    position: PhD student
+
+-
+    lastname: "Cao"
+    firstname: Anh-Quan
+    url: https://anhquancao.github.io/
+    profilepic: anhquan_cao.png
+    position: PhD student
+    alumni: true
+    alumni_date: 2025/01/01
+    alumni_now: research scientist at <a href="https://valeoai.github.io/" target="_blank">Valeo.ai</a>
+
+-
+    lastname: "Fahes"
+    firstname: Mohammad
+    url: https://mfahes.github.io/
+    profilepic: mohammad_fahes.jpeg
+    position: PhD student
+
+-
+    lastname: "Boulch"
+    firstname: Alexandre
+    url: https://boulch.eu/
+    profilepic: alexandre_boulch.png
+    position: Researcher
+
+-
+    lastname: "Puy"
+    firstname: Gilles
+    url: https://sites.google.com/site/puygilles/
+    profilepic: gilles_puy.jpg
+    position: Researcher
+
+-
+    lastname: "Bursuc"
+    firstname: Andrei
+    url: https://abursuc.github.io/
+    profilepic: andrei_bursuc.jpg
+    position: Researcher
+
+-
+    lastname: "Vu"
+    firstname: Tuan-Hung
+    url: https://tuanhungvu.github.io/
+    profilepic: tuan-hung_vu.jpg
+    position: Researcher
+
+-
+    lastname: "Huỳnh"
+    firstname: Tấn Khiêm
+    url: https://www.linkedin.com/in/khiem2105/
+    profilepic: tankhiem_huynh.jpg
+    position: Intern
+    alumni: true
+    alumni_date: 2023/10/01
+
+-
+    lastname: "Ben Salem"
+    firstname: Souhaiel
+    url: https://www.linkedin.com/in/souhaiel-bensalem-5a71721aa
+    profilepic: souhaiel_bensalem.jpg
+    position: Intern
+    alumni: true
+    alumni_date: 2023/10/01
+
+-
+    lastname: "Pizzati"
+    firstname: Fabio
+    url: https://fabvio.github.io/
+    profilepic: fabio_pizzati.png
+    position: PhD student
+    alumni: true
+    alumni_now: PostDoc at <a href="https://mbzuai.ac.ae/">MBZUAI</a>
+    alumni_date: 2023/03/01
+
+-
+    lastname: "Martyniuk"
+    firstname: Tetiana
+    url: https://scholar.google.com/citations?user=Ur0vgfMAAAAJ
+    profilepic: tetiana_martyniuk.jpg
+    position: PhD student
+
+-
+    lastname: "Weinreich"
+    firstname: Clément
+    url: https://clement-w.github.io/
+    profilepic: clement_weinreich.jpeg
+    alumni: true
+    position: Intern
+    alumni_now: PhD at CNRS, Institut Pasteur, Harvard
+
+-
+    lastname: "Marengo"
+    firstname: Matteo
+    url: https://www.linkedin.com/in/matteolmarengo/
+    profilepic: matteo_marengo.jpeg
+    alumni: true
+    position: Intern
+    alumni_now: Research intern at <a href="https://hms.harvard.edu/" target="_blank">Harvard</a>
+
+-
+    lastname: "Paul"
+    firstname: Soumava
+    url: https://mvp18.github.io/
+    profilepic: soumava_paul.jpg
+    position: Intern
+
+-
+    lastname: "Benigmim"
+    firstname: Yasser
+    url: https://yasserben.github.io/
+    profilepic: benigmim_yasser.jpg
+    position: PhD Visit
+    alumni: true
+    alumni_date: 2025-03-01
+    alumni_now: "PhD at Polytechnique"
+
+-
+    lastname: "Xia"
+    firstname: Weihao
+    url: https://weihaox.github.io/
+    profilepic: weihao_xia.png
+    position: PhD Visit
+    alumni: true
+
+-
+    lastname: "Balde"
+    firstname: Fatima
+    url: https://www.linkedin.com/in/fatima-balde-146312220/
+    profilepic: fatima_balde.jpeg
+    position: Intern
+
+-
+    lastname: "Seele"
+    firstname: Jonathan
+    url: https://www.linkedin.com/in/jonathan-seele-913691253/
+    profilepic: jonathan_seele.jpg
+    position: Intern

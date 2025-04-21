@@ -34,6 +34,7 @@ layout: default
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="contact-icons">{% include social.liquid %}</div>
         {% endif %}
       </div>
     {% endif %}
@@ -48,6 +49,14 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Supervision -->
+    {% if page.supervision %}
+      <h2>
+        <a href="{{ '/students/' | relative_url }}" style="color: inherit">Students</a>
+      </h2>
+      {% include supervision.liquid %}
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
@@ -59,9 +68,12 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+      <div class="more">
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">All publications &gt;&gt;&gt;</a>
+      </div>
     {% endif %}
 
     <!-- Social -->

@@ -217,7 +217,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -653,6 +653,88 @@ footer.sticky-bottom {
   }
 }
 
+div.more{
+  text-align: right;
+
+  a{
+    color: inherit;
+  }
+}
+
+// Team
+article>.team, article>div>.team {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+
+  a {
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+  .member {
+    width: 20%;
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 15px;
+    min-width: 80px;
+
+    span{
+      color: unset;
+    }
+
+    .nowat{
+      font-size: 12px;
+    }
+    .name{
+      font-weight: bold;
+    }
+    .membernote{
+      font-size: 12px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      aspect-ratio: 1;
+    }
+  }
+}
+article .team.alumni {
+  display: block;
+  justify-content: left;
+  padding-left: 2em;
+
+  .member {
+    width: auto;
+    text-align: left !important;
+    margin: auto;
+    /* font-size: 0.80em; */
+  }
+
+  .member {
+    display: list-item;
+
+    img {
+        display: none;
+    }
+    br {
+      display: none;
+      content: " ";
+    }
+    span {
+      display: inline;
+      color: unset;
+    }
+  }
+}
+
 // Projects
 
 .projects {
@@ -762,7 +844,9 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          /* border-bottom: 1px dashed var(--global-theme-color); */
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
 
           &:hover {
             border-bottom-style: solid;
@@ -771,7 +855,7 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          /* border-bottom: 1px solid; */
           font-style: normal;
         }
 
@@ -861,6 +945,16 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      .periodical{
+        div.award {
+          display: inline-block;
+          margin-left: 1em;
+          background-color: var(--global-theme-color);
+          padding: 0em 0.4em 0em 0.4em;
+          border-radius: 5px;
+        }
+      } 
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
@@ -1416,4 +1510,28 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+
+.jobads {
+    display: inline-block;
+    background-color: var(--global-code-bg-color);
+    border: 2px solid var(--global-theme-color);
+    border-radius: 10px;
+    padding: 0.5em;
+    width: 100%;
+    /* margin-left: auto; */
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    .ad {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.2em;
+    }
+    .ad::before {
+      content: "•";
+      margin-right: 0.2em;
+    }
 }
