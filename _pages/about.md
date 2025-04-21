@@ -40,6 +40,6 @@ My research interest lies in robust and interpretable visual scene understanding
     We opened a new PR[AI]RIE PhD position on "<a href="https://astra-vision.github.io/assets/pdf/inria_prairie_phd-physics-vfm.pdf">Physics-Grounded Vision Foundation Models</a>".<br>Apply before: <b>May 20th 2025</b>. Check details <a href="https://astra-vision.github.io/assets/pdf/inria_prairie_phd-physics-vfm.pdf">here</a>
   </div>
   <div class="ad">
-    I'm always looking for talented students, and have regular PhD, Postdoc or intern positions opened. Feel free to contact.
+    I'm always looking for talented students, and have regular PhD, Postdoc or intern positions opened. Feel free to email me with a resume + 2 references.
   </div>
 </div>
