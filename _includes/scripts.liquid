@@ -345,7 +345,7 @@
   "@type": "Person",
   "name": "{{ full_name }}",
   "image": "{{ profile_image_path | absolute_url }}",
-  "url": "{{ site.url }}{{ site.baseurl }}"
+  "url": "{{ site.url | append: site.baseurl }}"
 }
 </script>
 {% endif %}
