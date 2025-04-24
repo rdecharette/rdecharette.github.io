@@ -334,3 +334,18 @@
 {% if site.newsletter.enabled %}
   <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+
+{% if site.title == 'blank' %}
+  {% assign full_name = site.first_name | append: " " | append: site.last_name %}
+  {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ full_name }}",
+  "image": "{{ profile_image_path | absolute_url }}",
+  "url": "{{ site.url }}{{ site.baseurl }}"
+}
+</script>
+{% endif %}
