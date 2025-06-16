@@ -36,8 +36,8 @@ My research interest lies in robust and interpretable visual scene understanding
 <i class="fa-solid fa-envelope"></i> Email: <span style="">R.C@inria.fr</span> (replace <span style="font-family: sans-serif; font-weight: bold;">R</span> with <code style="color: unset;">raoul</code>, <span style="font-family: sans-serif; font-weight: bold;">C</span> with <code style="color: unset;">de-charette</code>)
 
 <div class="jobads">
-  <div class="ad">
-    We opened a new PR[AI]RIE PhD position on "<a href="https://astra-vision.github.io/assets/pdf/inria_prairie_phd-physics-vfm.pdf">Physics-Grounded Vision Foundation Models</a>".<br>Apply before: <b>May 20th 2025</b>. Check details <a href="https://astra-vision.github.io/assets/pdf/inria_prairie_phd-physics-vfm.pdf">here</a>
+  <div class="ad" style="text-decoration: line-through;">
+    New PR[AI]RIE PhD position on Physics-Grounded Vision Foundation Models.
   </div>
   <div class="ad">
     I'm always looking for talented students, and have regular PhD, Postdoc or intern positions opened. Feel free to email me with a resume + 2 references.
