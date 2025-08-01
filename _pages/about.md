@@ -29,7 +29,7 @@ latest_posts:
 
 Welcome. 
 I'm a Research Director in computer vision at Inria Paris, where I lead the [Astra-Vision group](https://astra-vision.github.io/), within the [ASTRA team](https://astra-team.github.io/). 
-My Habilitation (HDR) was completed in 2022, and my PhD in 2012 from Mines Paris. I worked in Carnegie Mellon Uni. (2011), Mines Paris (2013), and Uni. of Makedonia (2014). Beside research, I serve in most venues of the field as area chair (CVPR, ECCV, WACV, IROS), co-organized or co-founded events like ACVSS, CVPR workshops, WSCV, Indaba, etc. I am also an ELLIS member and a PR\[AI\]RIE-PSAI Fellow.
+My Habilitation (HDR) was completed in 2022, and my PhD in 2012 from Mines Paris. I worked in Carnegie Mellon Uni. (2011), Mines Paris (2013), and Uni. of Makedonia (2014). Beside research, I serve in most venues of the field as area chair (CVPR, ECCV, WACV, IROS) and co-organized or co-founded events like ACVSS, CVPR workshops, WSCV, Indaba, etc. I am also an ELLIS member and a PR\[AI\]RIE-PSAI Fellow.
 
 My research interest lies in robust and interpretable visual scene understanding.
 
