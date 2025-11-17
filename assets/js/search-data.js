@@ -290,6 +290,9 @@ ninja.data = [{
           section: "News",},{id: "news-organizing-the-2nd-african-computer-vision-summer-school-in-kigali-rwanda-from-july-13th-to-23rd-with-an-amazing-lineup-of-speakers",
           title: 'Organizing the 2nd African Computer Vision Summer School in Kigali, Rwanda from July...',
           description: "",
+          section: "News",},{id: "news-welcoming-new-members-in-the-group-fatima-baldé-and-antonios-tragoudaras-starting-a-phd-radu-beche-for-a-phd-visit-and-sebastian-cavada-as-visitor-and-collaborator",
+          title: 'Welcoming new members in the group: Fatima Baldé and Antonios Tragoudaras starting a...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
