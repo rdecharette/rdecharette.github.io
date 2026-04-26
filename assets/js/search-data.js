@@ -293,6 +293,9 @@ ninja.data = [{
           section: "News",},{id: "news-welcoming-new-members-in-the-group-fatima-baldé-and-antonios-tragoudaras-starting-a-phd-radu-beche-for-a-phd-visit-and-sebastian-cavada-as-visitor-and-collaborator",
           title: 'Welcoming new members in the group: Fatima Baldé and Antonios Tragoudaras starting a...',
           description: "",
+          section: "News",},{id: "news-happy-to-have-seamie-hayes-for-a-6-month-phd-visit-welcome-seamie",
+          title: 'Happy to have Seamie Hayes for a 6-month PhD visit. Welcome Seamie.',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
