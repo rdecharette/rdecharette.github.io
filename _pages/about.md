@@ -36,7 +36,7 @@ My research interest lies in robust and interpretable visual scene understanding
 <i class="fa-solid fa-envelope"></i> Email: <span style="">R.C@inria.fr</span> (replace <span style="font-family: sans-serif; font-weight: bold;">R</span> with <code style="color: unset;">raoul</code>, <span style="font-family: sans-serif; font-weight: bold;">C</span> with <code style="color: unset;">de-charette</code>)
 
 <div class="jobads">
-  <div class="ad">
+  <div class="ad" style="text-decoration: line-through;">
     New PR[AI]RIE PhD position on <a href="https://astra-vision.github.io/jobs/" target="_blank">Simulatable Physics-aware World Models</a> (deadline: 17/05/2026)
   </div>
   <div class="ad">
