@@ -5,10 +5,19 @@
 # - "PhD visit"
 # - "Intern"
 
-# By default, all members are displayed by alphabetical order of the last name.
+# Current members are displayed alphabetically by last name.
+# Alumni are displayed within each group by alumni_date (YYYY-MM-DD), most recent first.
 
 # For switching someone to alumni, just set the "alumni" property. Eg:
 # alumni: true
+
+-
+    lastname: "Tripathi"
+    firstname: Shivam
+    url: https://shivamt-tr.github.io
+    profilepic: shivam-tripathi.jpeg
+    position: PhD student
+    note: "co-supervised with Fabio Pizzati (MBZUAI)"
 
 -
     lastname: "Hayes"
@@ -31,6 +40,9 @@
     url: https://sebo-the-tramp.github.io/
     profilepic: sebastian_cavada.png
     position: Visitor
+    alumni: true
+    alumni_date: "2026-10-01"
+    alumni_now: "PhD student at Lund University"
 
 -
     lastname: "Beche"
@@ -46,7 +58,7 @@
     profilepic: ivan_lopes.jpeg
     position: PhD student
     alumni: true
-    alumni_date: 2025/10/13
+    alumni_date: "2025-10-13"
     alumni_now: scientist at <a href="https://www.disneyresearch.com">Disney Research</a>
 
 -
@@ -56,7 +68,7 @@
     profilepic: anhquan_cao.png
     position: PhD student
     alumni: true
-    alumni_date: 2025/01/01
+    alumni_date: "2025-01-01"
     alumni_now: research scientist at <a href="https://valeoai.github.io/" target="_blank">Valeo.ai</a>
 
 -
@@ -65,7 +77,9 @@
     url: https://mfahes.github.io/
     profilepic: mohammad_fahes.jpeg
     position: PhD student
-    note: "co-supervised with Tuan-Hung Vu, Andrei Bursuc (Valeo.ai) and Patrick Pérez (Kyutai).<br>2025: Intern at Google DeepMind."
+    note: "co-supervised with Tuan-Hung Vu, Andrei Bursuc (Valeo.ai) and Patrick Pérez (Kyutai)"
+    alumni: true
+    alumni_date: "2026-10-01"
 
 -
     lastname: "Huỳnh"
@@ -74,7 +88,8 @@
     profilepic: tankhiem_huynh.jpg
     position: Intern
     alumni: true
-    alumni_date: 2023/10/01
+    alumni_date: "2023-10-01"
+    alumni_now: "PhD student at Inria"
 
 -
     lastname: "Ben Salem"
@@ -83,7 +98,8 @@
     profilepic: souhaiel_bensalem.jpg
     position: Intern
     alumni: true
-    alumni_date: 2023/10/01
+    alumni_date: "2023-10-01"
+    alumni_now: "Research engineer at Parrot"
 
 -
     lastname: "Pizzati"
@@ -93,7 +109,7 @@
     position: PhD student
     alumni: true
     alumni_now: PostDoc at <a href="https://mbzuai.ac.ae/">MBZUAI</a>
-    alumni_date: 2023/03/01
+    alumni_date: "2023-03-01"
 
 -
     lastname: "Martyniuk"
@@ -109,6 +125,7 @@
     url: https://clement-w.github.io/
     profilepic: clement_weinreich.jpeg
     alumni: true
+    alumni_date: "2024-08-01"
     position: Intern
     alumni_now: PhD at CNRS, Institut Pasteur, Harvard
 
@@ -118,17 +135,18 @@
     url: https://www.linkedin.com/in/matteolmarengo/
     profilepic: matteo_marengo.jpeg
     alumni: true
+    alumni_date: "2024-08-01"
     position: Intern
     alumni_now: Research intern at <a href="https://hms.harvard.edu/" target="_blank">Harvard</a>
 
 -
     lastname: "Paul"
     firstname: Soumava
-    url: https://astra-vision.github.io
     profilepic: soumava_paul.jpg
     position: Intern
+    url: https://astra-vision.github.io/
     alumni: true
-    alumni_date: 2024-12-01
+    alumni_date: "2024-12-01"
     alumni_now: "PhD at Johns Hopkins University"
 
 -
@@ -138,8 +156,8 @@
     profilepic: benigmim_yasser.jpg
     position: PhD Visit
     alumni: true
-    alumni_date: 2025-03-01
-    alumni_now: "PhD at Polytechnique"
+    alumni_date: "2025-03-01"
+    alumni_now: "PostDoc at Inria TOTH"
 
 -
     lastname: "Xia"
@@ -148,6 +166,7 @@
     profilepic: weihao_xia.png
     position: PhD Visit
     alumni: true
+    alumni_date: "2024-06-01"
     alumni_now: "Research staff at University of Cambridge"
 
 -
@@ -166,6 +185,7 @@
     position: Intern
     bib_firstname: ["Jonathan", "J."]
     alumni: true
+    alumni_date: "2025-08-01"
     alumni_now: "at ETH Zurich"
 
 -
@@ -174,6 +194,8 @@
     url: https://rongli.tech/
     position: Intern
     alumni: true
+    alumni_date: "2022-11-01"
+    alumni_now: "PhD student at The Hong Kong University of Science and Technology"
 
 -
     lastname: "Roldão"
@@ -182,6 +204,7 @@
     note: "co-supervised with Anne Verroust-Blondet (Inria)"
     position: PhD student
     alumni: true
+    alumni_date: "2021-07-31"
     alumni_now: Senior Research Engineer
 
 -
@@ -190,21 +213,26 @@
     url: https://pranaval.github.io/
     position: Intern
     alumni: true
+    alumni_date: "2021-07-31"
+    alumni_now: "Applied Scientist at Wayve"
 
 -
     lastname: "Ai"
     firstname: Di
     position: Intern
     alumni: true
+    alumni_date: "2020-07-01"
+    alumni_now: "Principal lead at Ezra"
 
 -
     lastname: "Jaritz"
     firstname: Maximilian
     position: PhD student
     url: https://scholar.google.co.uk/citations?user=yt2IsdAAAAAJ
-    note: "co-supervised with Fawzi Nashashibi (Inria), Emilie Wirbel (Valeo)"
+    note: "co-supervised with Emilie Wirbel (Valeo)"
     alumni: true
     alumni_now: research scientist at Amazon
+    alumni_date: "2020-08-31"
 
 
 -
@@ -212,24 +240,32 @@
     firstname: Gabriel
     position: Intern
     alumni: true
+    alumni_now: "at Criteo"
+    alumni_date: "2020-08-31"
 
 -
     lastname: "de Beaucorps"
     firstname: Pierre
     position: Postdoctoral
     alumni: true
+    alumni_now: "Data engineer at SDEF"
+    alumni_date: "2020-07-31"
     
 -
     lastname: "Bourré"
     firstname: Pierre
     position: Engineer
     alumni: true
+    alumni_now: "Engineer at Mujin"
+    alumni_date: "2020-07-31"
     
 -
     lastname: "KV"
     firstname: Manohar
     position: Intern
     alumni: true
+    alumni_now: "Senior Computer Vision Engineer at Qualcomm"
+    alumni_date: "2019-01-01"
     
 -
     lastname: "Halder"
@@ -238,14 +274,16 @@
     note: co-supervised with Jean-François Lalonde (Uni. Laval)
     url: https://scholar.google.com/citations?user=A_e7SA8AAAAJ
     alumni: true
-    alumni_now: scientist at Apple
-    
+    alumni_now: "scientist at Apple"
+    alumni_date: "2020-01-01"
+
 -
     lastname: "Kahraman"
     firstname: Sule
     position: Intern
     alumni: true
-    alumni_now: scientist at Microsoft
+    alumni_now: "scientist at Microsoft"
+    alumni_date: "2017-12-31"
     
 -
     lastname: "Hong"
@@ -253,7 +291,8 @@
     position: Intern
     url: https://sites.google.com/view/ziyanghong/home
     alumni: true
-    alumni_now: researcher at The Chinese University of Hong Kong, Shenzhen
+    alumni_now: "Assoc. Prof. at Harbin Institute of Technology"
+    alumni_date: "2017-12-31"
 
 -
     lastname: "Gomez Torres"
@@ -261,27 +300,36 @@
     position: Intern
     url: https://sites.google.com/view/ziyanghong/home?pli=1
     alumni: true
+    alumni_now: "Developper at Wallbox"
+    alumni_date: "2017-06-31"
 
 -
     lastname: "Colmenares"
     firstname: Rafael 
     position: Intern
     alumni: true
+    alumni_now: "at EY"
+    alumni_date: "2016-08-31"
 
 -
     lastname: "Marin"
     firstname: Pablo 
     position: PhD Visit
     alumni: true
+    alumni_date: "2016-08-31"
+    alumni_now: "Ass. Prof. at Universidad Carlos III de Madrid"
 
 -
     lastname: "Meyer"
     firstname: Alexis 
     position: Intern
     alumni: true
+    alumni_date: "2016-08-31"
+    alumni_now: "Engineer at Air Liquide"
 
 -
     lastname: "Torres"
     firstname: "Kenneth J.M."
     position: Intern
     alumni: true
+    alumni_date: "2016-08-31"

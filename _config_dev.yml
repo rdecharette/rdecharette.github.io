@@ -1,27 +1,37 @@
-# _config_dev.yml
+# Local preview overrides. Load after _config.yml (or run bin\serve.cmd).
+# Keep full rebuilds: incremental mode can miss data/bibliography dependencies.
+incremental: false
 
-# Explicitly set the environment to development
-environment: development
-
-# Optional: turn off incremental image generation or custom filters
-# If you're using plugins or filters that process images, make sure they are excluded here.
-
-# You can also override other options to speed up local builds
 sass:
   style: expanded
 
-# Disable jekyll-minifier plugin features (HTML, CSS, SVG, etc.)
-minifier:
-  enable: false
+# Jekyll replaces plugin arrays, so retain all plugins except the JS minifier.
+plugins:
+  - jekyll-archives-v2
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
 
-# Disable jekyll-terser (JavaScript minification)
-terser:
-  compress:
-    defaults: false
-
-# Turn off minification (if you use any)
-minify: false
-minimize: false
+# Also bypass HTML/CSS minification if JEKYLL_ENV was set to production.
+jekyll-minifier:
+  exclude: ["*"]
 
 imagemagick:
   enabled: false
+
+# These badges fetch remote citation counts during rendering.
+enable_publication_badges:
+  google_scholar: false
+  inspirehep: false

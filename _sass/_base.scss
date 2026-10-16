@@ -49,6 +49,16 @@ table.table a {
   }
 }
 
+.dashed-underline,
+a.dashed-underline:hover {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: var(--global-text-color);
+  color: var(--global-text-color);
+  text-underline-offset: 0.2em;
+  cursor: pointer;
+}
+
 .table-dark {
   background-color: transparent;
   &.table-bordered {

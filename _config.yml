@@ -310,6 +310,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    co_first_authors,
     google_scholar_id,
     html,
     inspirehep_id,

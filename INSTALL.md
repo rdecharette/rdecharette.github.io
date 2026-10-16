@@ -130,6 +130,23 @@ $ bundle exec jekyll serve
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
 
+## Fast local preview on Windows
+
+From CMD in the project folder, run:
+
+```bat
+bundle exec jekyll serve --config _config.yml,_config_dev.yml
+```
+
+Alternatively, `bin\serve.cmd` uses the same configuration and adds browser live reload.
+The development configuration skips minification, responsive image generation,
+and remote citation-count badges. New responsive image variants require a
+production build. Production builds continue to use `_config.yml`.
+
+Full rebuilds remain enabled so edits to `_data` and bibliography files appear
+correctly. Restart the server after editing configuration or the Gemfile.
+Add `--profile` to inspect rendering costs.
+
 ## Deployment
 
 Deploying your website to [GitHub Pages](https://pages.github.com/) is the most popular option.

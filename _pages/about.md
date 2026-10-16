@@ -28,10 +28,12 @@ latest_posts:
 ---
 
 Welcome. 
-I'm a Research Director in computer vision at Inria Paris, where I lead the [Astra-Vision group](https://astra-vision.github.io/), within the [ASTRA team](https://astra-team.github.io/). 
-My Habilitation (HDR) was completed in 2022, and my PhD in 2012 from Mines Paris. I worked in Carnegie Mellon Uni. (2011), Mines Paris (2013), and Uni. of Makedonia (2014). Beside research, I serve in most venues of the field as area chair (CVPR, ECCV, WACV, IROS) and co-organized or co-founded events like ACVSS, CVPR workshops, WSCV, Indaba, etc. I am also an ELLIS member and a PR\[AI\]RIE-PSAI Fellow.
+I'm a Research Director in computer vision at Inria Paris, leading the [Astra-Vision group](https://astra-vision.github.io/). Previously, I worked in Mines Paris (2008-2011, 2013), Carnegie Mellon (2011), and Uni. of Makedonia (2014). 
+I earned my HDR from Sorbonne in 2022.
+I regularly serve as Area Chair in major conferences (CVPR, ECCV, WACV, IROS, etc.), co-founded ACVSS and WSCV, and organize events (workshops at CVPR, CoRL, Indaba, etc). I am also an ELLIS member and a PR\[AI\]RIE-PSAI Fellow.
 
-My research interest lies in robust and interpretable visual scene understanding.
+My research focuses on robust visual scene understanding, grounded in the physical world. Despite impressive performance across downstream tasks when trained on massive datasets, 
+I believe vision models have yet to unlock the true potential of visual data, particularly for enabling frugal learning and interpretable world representations. I am a strong advocate of <span class="dashed-underline" data-toggle="tooltip" title="I'll explain soon what it means for me" tabindex="0">ethical research</span>, and encourage <a class="dashed-underline" href="https://www.slow-science.com/">slow science</a>.
 
 <i class="fa-solid fa-envelope"></i> Email: <span style="">R.C@inria.fr</span> (replace <span style="font-family: sans-serif; font-weight: bold;">R</span> with <code style="color: unset;">raoul</code>, <span style="font-family: sans-serif; font-weight: bold;">C</span> with <code style="color: unset;">de-charette</code>)
 
@@ -40,7 +42,7 @@ My research interest lies in robust and interpretable visual scene understanding
     New PR[AI]RIE PhD position on <a href="https://astra-vision.github.io/jobs/" target="_blank">Simulatable Physics-aware World Models</a> (deadline: 17/05/2026)
   </div>
   <div class="ad">
-    Soon opening a PostDoc. Got a strong record track in top-tier venues (CVPR,ICCV,ECCV,NeurIPS,ICML,ICLR)? Contact me.
+    PostDoc opened. Got a good record track in top-tier venues (CVPR,ICCV,ECCV,NeurIPS,ICML,ICLR)? Contact me.
   </div>
   <div class="ad" style="text-decoration: line-through;">
     New PR[AI]RIE PhD position on Physics-Grounded Vision Foundation Models.
