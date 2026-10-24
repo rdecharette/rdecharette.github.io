@@ -38,11 +38,14 @@ I believe vision models have yet to unlock the true potential of visual data, pa
 <i class="fa-solid fa-envelope"></i> Email: <span style="">R.C@inria.fr</span> (replace <span style="font-family: sans-serif; font-weight: bold;">R</span> with <code style="color: unset;">raoul</code>, <span style="font-family: sans-serif; font-weight: bold;">C</span> with <code style="color: unset;">de-charette</code>)
 
 <div class="jobads">
-  <div class="ad" style="text-decoration: line-through;">
-    New PR[AI]RIE PhD position on <a href="https://astra-vision.github.io/jobs/" target="_blank">Simulatable Physics-aware World Models</a> (deadline: 17/05/2026)
+  <div class="ad">
+    ELLIS PhD opened on <a href="https://astra-vision.github.io/jobs/" target="_blank">Multimodal physically-consistent world modeling</a> (multiple deadlines: 31/10 and 20/11/2026)
   </div>
   <div class="ad">
     PostDoc opened. Got a good record track in top-tier venues (CVPR,ICCV,ECCV,NeurIPS,ICML,ICLR)? Contact me.
+  </div>
+  <div class="ad" style="text-decoration: line-through;">
+    New PR[AI]RIE PhD position on Simulatable Physics-aware World Models (deadline: 17/05/2026)
   </div>
   <div class="ad" style="text-decoration: line-through;">
     New PR[AI]RIE PhD position on Physics-Grounded Vision Foundation Models.
